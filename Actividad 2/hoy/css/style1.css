@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('../img/zetong-li-oGgLxhuu2EI-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pre{
+    margin: 10px;
+    background-color: #000;
+    opacity: .4;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    width: fit-content;
+}
+.day{
+    background-color: #000;
+    opacity: .6;
+    color: red;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: fit-content;
+    position: relative;
+    border-radius: 10px;
+}
+.men{
+    margin: 10px;
+    background-color: #000;
+    opacity: .4;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    width: fit-content;
+}
