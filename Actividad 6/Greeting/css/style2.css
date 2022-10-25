@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    background-image: url('../img/eberhard-grossgasteiger-MWR7xBDc4zU-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box form, h3{
+    font-size: 1.5rem;
+    color: #000;
+    width: 400px;
+    position: relative;
+    margin-top: 25px;
+    top: 20px;
+    text-align: left;
+}
+
+.box button{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000;
+    width: 400px;
+    position: relative;
+    margin-top: 25px;
+    top: 20px;
+    cursor: pointer;
+}
