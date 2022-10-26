@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tus dias de vida</title>
+    <link rel="stylesheet" href="../css/style6.css">
+</head>
+<body>
+    <h1>Calcula los dias vividos</h1>
+    
+    <h3>Fecha de nacimiento</h3>
+    
+    <form action="../php/calculo.php" method="post">
+        <label for="nombre">Dia</label>
+        <input type="number" name="dia" id="dia">
+        <br></br>
+        <label for="nombre">Mes</label>
+        <input type="number" name="mes" id="mes">
+        <br></br>
+        <label for="nombre">Año</label>
+        <input type="number" name="año" id="año">
+        <br></br>
+
+        <h3>Fecha del dia de hoy</h3>
+        
+        <label for="nombre">Dia</label>
+        <input type="number" name="dia2" id="dia2">
+        <br></br>
+        <label for="nombre">Mes</label>
+        <input type="number" name="mes2" id="mes2">
+        <br></br>
+        <label for="nombre">Año</label>
+        <input type="number" name="año2" id="año2">
+        <br></br>
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+</html>

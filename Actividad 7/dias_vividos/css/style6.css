@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    background-color: #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    text-align: center;
+}
+h1{
+    color: aquamarine;
+}
+input{
+    text-align: center;
+    width: 90px;
+}
