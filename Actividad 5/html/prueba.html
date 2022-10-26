@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba HTML</title>
+    <link rel="stylesheet" href="../css/style5.css">
+</head>
+<body>
+
+    <h1 id="titulo"> SOY UNA SIMPLE PÁGINA HTML </h1>
+
+    <button id="rojo" onclick="cambiaARojo()">Soy el Rojo</button>
+    <button id="amarillo" onclick="cambiaAAmarillo()">Soy el Amarillo</button>
+    <button id="verde" onclick="cambiaAVerde()">Soy el Verde</button>
+    
+
+    <script> 
+        function cambiaARojo(){
+            document.getElementById("rojo").style.color = "red"
+            document.getElementById("titulo").style.color = "red"
+        }
+        function cambiaAAmarillo(){
+            document.getElementById("amarillo").style.color = "yellow"
+            document.getElementById("titulo").style.color = "yellow"
+        }
+        function cambiaAVerde(){
+            document.getElementById("verde").style.color = "green"
+            document.getElementById("titulo").style.color = "green"
+        }    
+    </script>
+
+</body>
+</html>
